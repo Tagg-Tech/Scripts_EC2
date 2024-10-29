@@ -17,19 +17,19 @@ if [ $? = /usr/bin/python3 ]
   else sudo apt install python3
 fi
 
-sudo apt-install python3-pip
-sudo apt-install python3-psutil
-sudo apt-install python3-python-dotenv
-sudo apt-install python3-os
-sudo apt-install python3-requests
-sudo apt-install python3-json
-sudo apt-install python3-time
-sudo apt-install python3-platform
-sudo apt-install python3-socket
-sudo apt-install python3-pandas
-sudo apt-install python3-random
-sudo apt-install python3-boto3
-sudo apt-install python3-holidays
+sudo apt install python3-pip
+sudo apt install python3-psutil
+sudo apt install python3-python-dotenv
+sudo apt install python3-os
+sudo apt install python3-requests
+sudo apt install python3-json
+sudo apt install python3-time
+sudo apt install python3-platform
+sudo apt install python3-socket
+sudo apt install python3-pandas
+sudo apt install python3-random
+sudo apt install python3-boto3
+sudo apt install python3-holidays
 
 
 #configurando bibliotecas python
