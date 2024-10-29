@@ -66,7 +66,9 @@ if [ $? != "" ]
   sudo apt install -y nodejs
 fi
 
-git clone https://github.com/Tagg-Tech/Development.git && git clone https://github.com/Tagg-Tech/DATA_ANALYTICS.git && git clone https://github.com/Tagg-Tech/Scripts_EC2.git
+sudo git clone https://github.com/Tagg-Tech/Development.git /
+sudo git clone https://github.com/Tagg-Tech/DATA_ANALYTICS.git /
+
 
 cd /Development/web-data-viz
 
