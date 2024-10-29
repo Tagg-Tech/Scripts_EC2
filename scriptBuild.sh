@@ -17,6 +17,7 @@ if [ $? = /usr/bin/python3 ]
   else sudo apt install python3
 fi
 
+sudo apt-install python3-pip
 sudo apt-install python3-psutil
 sudo apt-install python3-python-dotenv
 sudo apt-install python3-os
