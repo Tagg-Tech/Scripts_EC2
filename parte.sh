@@ -5,8 +5,8 @@ echo "Bem vindo a TagTech, script de instalação do ambiente
  | || o ( |_n | | | _( (_ |   |
  |_||_n_|\__/ |_| |___\__||_n_|
                                
-
 "
+sudo apt-get update
 
 which python3
 if [ $? -eq 0 ]; then
