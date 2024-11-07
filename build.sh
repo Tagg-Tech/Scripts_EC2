@@ -18,3 +18,13 @@ else
 fi
 
 sudo apt install -y python3-pip python3-psutil python3-dotenv python3-requests python3-pandas python3-boto3
+
+sudo mkdir /home/ubuntu/dev
+sudo mkdir /home/ubuntu/captura
+
+sudo git clone https://github.com/Tagg-Tech/Development.git /home/ubuntu/dev
+
+sudo git clone https://github.com/Tagg-Tech/DATA_ANALYTICS.git /home/ubuntu/captura
+
+
+
