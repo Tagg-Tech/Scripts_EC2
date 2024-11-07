@@ -9,4 +9,4 @@ echo "Bem vindo a TagTech, script de instalação do ambiente
 sudo apt-get update
 
 
-npm install --prefix /home/ubuntu/dev/Development/web-data-viz
+sudo npm install --prefix /home/ubuntu/dev/Development/web-data-viz
