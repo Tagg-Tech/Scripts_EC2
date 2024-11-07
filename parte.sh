@@ -10,5 +10,7 @@ sudo apt-get update
 
 
 
-sudo git clone https://github.com/Tagg-Tech/Development.git /
-sudo git clone https://github.com/Tagg-Tech/DATA_ANALYTICS.git /
+sudo git clone https://github.com/Tagg-Tech/Development.git /home/ubuntu
+
+sudo git clone https://github.com/Tagg-Tech/DATA_ANALYTICS.git /home/ubuntu
+
