@@ -39,3 +39,5 @@ else
 fi
 
 
+sudo npm install --prefix /home/ubuntu/dev/web-data-viz
+
