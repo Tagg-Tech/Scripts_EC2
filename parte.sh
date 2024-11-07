@@ -8,9 +8,11 @@ echo "Bem vindo a TagTech, script de instalação do ambiente
 "
 sudo apt-get update
 
+sudo mkdir /home/ubuntu/dev
+sudo mkdir /home/ubuntu/captura
 
 
-sudo git clone https://github.com/Tagg-Tech/Development.git /home/ubuntu
+sudo git clone https://github.com/Tagg-Tech/Development.git /home/ubuntu/dev
 
-sudo git clone https://github.com/Tagg-Tech/DATA_ANALYTICS.git /home/ubuntu
+sudo git clone https://github.com/Tagg-Tech/DATA_ANALYTICS.git /home/ubuntu/captura
 
