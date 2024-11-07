@@ -28,3 +28,14 @@ sudo git clone https://github.com/Tagg-Tech/DATA_ANALYTICS.git /home/ubuntu/capt
 
 
 
+which node > /dev/null 2>&1
+if [ $? -eq 0 ]
+then
+  echo "Node instalado"
+else
+  echo "instalando Node"
+  curl -fsSL https://deb.nodesource.com/setup_16.x | sudo -E bash - 
+  sudo apt install -y nodejs
+fi
+
+
