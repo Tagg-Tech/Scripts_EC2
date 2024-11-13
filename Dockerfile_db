@@ -1,5 +1,6 @@
 FROM mysql:latest
-WORKDIR /
-ENV MY_SQL_ROOT_PASSWORD = ''
+WORKDIR /app
+ENV MY_SQL_ROOT_PASSWORD=''
 COPY initdb.sql /docker-entrypoint-initdb.d/
-EXPOSE 3306
+EXPOSE 3306-3308
+
